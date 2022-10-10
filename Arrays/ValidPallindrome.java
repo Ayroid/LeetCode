@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ValidPallindrome {
     public boolean isPalindrome(String s) {
         s=s.toLowerCase();
@@ -20,9 +22,14 @@ public class ValidPallindrome {
             }
         }
         return true;
+    }
 
     public static void main(String[] args) {
         ValidPallindrome v1= new ValidPallindrome();
-        System.out.println(v1.isPalindrome("Marge, let's \"[went].\" I await {news} telegram."));
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a String: ");
+        String str = sc.nextLine();
+        sc.close();
+        System.out.println(v1.isPalindrome(str));
     }
 }
