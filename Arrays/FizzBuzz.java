@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.*;
 class FizzBuzz {
     public List<String> fizzBuzz(int n) {

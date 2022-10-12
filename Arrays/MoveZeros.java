@@ -1,3 +1,4 @@
+package Arrays;
 class MoveZeroes {
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) return;        

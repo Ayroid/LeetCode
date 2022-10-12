@@ -1,4 +1,5 @@
 // Sliding Window
+package Arrays;
 import java.util.*;
 class MaxSum{
     public static void main(String[] args) {
